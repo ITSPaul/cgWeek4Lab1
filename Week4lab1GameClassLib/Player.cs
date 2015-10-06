@@ -15,7 +15,7 @@ namespace Week4lab1GameClassLib
         public string FirstName;
         public string SecondName;
         public int XP;
-        public int clientID;
+        public string clientID;
     }
 
 }

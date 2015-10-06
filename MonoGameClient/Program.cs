@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Week4Lab1Client
+namespace MonoGameClient
 {
 #if WINDOWS || LINUX
     /// <summary>
@@ -11,11 +11,18 @@ namespace Week4Lab1Client
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
-        [STAThread]
+        //[STAThread]
         static void Main()
         {
-            using (var game = new Game1())
+            Game1 game = new Game1();
                 game.Run();
+   //         System.Threading.Thread t2 = 
+			//new System.Threading.Thread(() =>
+   //            {
+   //                Game1 game1 = new Game1();
+   //                game1.Run();
+   //            });
+   //         t2.Start();
         }
     }
 #endif

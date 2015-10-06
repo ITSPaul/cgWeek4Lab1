@@ -5,8 +5,8 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Week4Lab1Client")]
-[assembly: AssemblyProduct("Week4Lab1Client")]
+[assembly: AssemblyTitle("MonoGameClient")]
+[assembly: AssemblyProduct("MonoGameClient")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyCompany("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("06546983-b386-4562-9b3a-6a78772479cc")]
+[assembly: Guid("4b949512-be68-471d-bf4a-a088ed2fbb09")]
 
 // Version information for an assembly consists of the following four values:
 //
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("3.4.0.456")]
-[assembly: AssemblyFileVersion("3.4.0.456")]
+[assembly: AssemblyVersion("3.5.0.574")]
+[assembly: AssemblyFileVersion("3.5.0.574")]
